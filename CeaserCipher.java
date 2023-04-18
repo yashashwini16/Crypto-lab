@@ -4,9 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Scanner; 
 public class CeaserCipher { 
 static Scanner sc=new Scanner(System.in); 
-static BufferedReaderbr = new BufferedReader(new InputStreamReader(System.in)); 
+static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 public static void main(String[] args) throws IOException { 
-// TODO code application logic here 
 System.out.print("Enter any String: "); 
 String str = br.readLine(); 
 System.out.print("\nEnter the Key: "); 
